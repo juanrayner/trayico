@@ -71,6 +71,16 @@ namespace TrayIcon
             notifyIcon1.BalloonTipTitle = title;
             notifyIcon1.BalloonTipText = body;
             notifyIcon1.ShowBalloonTip(500);
-        }        
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void notifyIcon1_BalloonTipClicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
